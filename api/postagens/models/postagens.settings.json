@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "postagens",
+  "info": {
+    "name": "Postagens"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "produto": {
+      "type": "string"
+    },
+    "estoque": {
+      "type": "biginteger"
+    }
+  }
+}
